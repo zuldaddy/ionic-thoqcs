@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Calculator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<p>
+Markdown is a reduction of the product price, basing on the inability to sell it at the
+initial price or original selling price. In other words, markdown is the difference between
+the original retail price and the actual selling price. </p>
+
+<br>
+
+<ion-item>
+  <ion-label> Original Price </ion-label>
+  <ion-input type="number" [(ngModel)]="origPrice"> </ion-input>
+</ion-item>
+
+<br>
+
+<ion-item>
+  <ion-label> Selling Price </ion-label>
+  <ion-input type="number" [(ngModel)]="sellPrice"> </ion-input>
+</ion-item>
+
+<br>
+<button ion-button color="Primary" (click)="compute()"> Compute </button>
+
+<ion-item> 
+  <h3> Savings PHP {{markdownSavings}} </h3>
+</ion-item>
+
+<br>
+<ion-item> 
+  <h3> Markdown Rate (%) {{markdownRate}} </h3>
+</ion-item>
+
+</ion-content>

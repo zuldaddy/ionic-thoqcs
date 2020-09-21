@@ -1,0 +1,17 @@
+ion-content {
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+h2 {
+  color:black
+}
+
+p{
+  color:black;
+  text-align: justify;
+  font-family: 'Georgia', Arial, Helvetica, sans-serif, monospace;
+}
+
+ion-item {
+background-color: #0ce7b8
+}
